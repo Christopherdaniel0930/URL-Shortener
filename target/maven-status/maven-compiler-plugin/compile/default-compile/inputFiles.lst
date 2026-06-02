@@ -1,16 +1,16 @@
-D:\SpringBoot\Online Bankin System\src\main\java\com\example\urlshortener\controller\UrlShortenerController.java
-D:\SpringBoot\Online Bankin System\src\main\java\com\example\urlshortener\dto\ClickEventResponse.java
-D:\SpringBoot\Online Bankin System\src\main\java\com\example\urlshortener\dto\CreateShortUrlRequest.java
-D:\SpringBoot\Online Bankin System\src\main\java\com\example\urlshortener\dto\DashboardStatsResponse.java
-D:\SpringBoot\Online Bankin System\src\main\java\com\example\urlshortener\dto\ShortUrlResponse.java
-D:\SpringBoot\Online Bankin System\src\main\java\com\example\urlshortener\dto\UrlAnalyticsResponse.java
-D:\SpringBoot\Online Bankin System\src\main\java\com\example\urlshortener\exception\ApiExceptionHandler.java
-D:\SpringBoot\Online Bankin System\src\main\java\com\example\urlshortener\exception\ExpiredUrlException.java
-D:\SpringBoot\Online Bankin System\src\main\java\com\example\urlshortener\exception\UrlNotFoundException.java
-D:\SpringBoot\Online Bankin System\src\main\java\com\example\urlshortener\model\ClickEvent.java
-D:\SpringBoot\Online Bankin System\src\main\java\com\example\urlshortener\model\ShortUrl.java
-D:\SpringBoot\Online Bankin System\src\main\java\com\example\urlshortener\repository\ClickEventRepository.java
-D:\SpringBoot\Online Bankin System\src\main\java\com\example\urlshortener\repository\ShortUrlRepository.java
-D:\SpringBoot\Online Bankin System\src\main\java\com\example\urlshortener\service\Base62CodeGenerator.java
-D:\SpringBoot\Online Bankin System\src\main\java\com\example\urlshortener\service\UrlShortenerService.java
-D:\SpringBoot\Online Bankin System\src\main\java\com\example\urlshortener\UrlShortenerApplication.java
+D:\SpringBoot\URL Shortener\src\main\java\com\example\urlshortener\controller\UrlShortenerController.java
+D:\SpringBoot\URL Shortener\src\main\java\com\example\urlshortener\dto\ClickEventResponse.java
+D:\SpringBoot\URL Shortener\src\main\java\com\example\urlshortener\dto\CreateShortUrlRequest.java
+D:\SpringBoot\URL Shortener\src\main\java\com\example\urlshortener\dto\DashboardStatsResponse.java
+D:\SpringBoot\URL Shortener\src\main\java\com\example\urlshortener\dto\ShortUrlResponse.java
+D:\SpringBoot\URL Shortener\src\main\java\com\example\urlshortener\dto\UrlAnalyticsResponse.java
+D:\SpringBoot\URL Shortener\src\main\java\com\example\urlshortener\exception\ApiExceptionHandler.java
+D:\SpringBoot\URL Shortener\src\main\java\com\example\urlshortener\exception\ExpiredUrlException.java
+D:\SpringBoot\URL Shortener\src\main\java\com\example\urlshortener\exception\UrlNotFoundException.java
+D:\SpringBoot\URL Shortener\src\main\java\com\example\urlshortener\model\ClickEvent.java
+D:\SpringBoot\URL Shortener\src\main\java\com\example\urlshortener\model\ShortUrl.java
+D:\SpringBoot\URL Shortener\src\main\java\com\example\urlshortener\repository\ClickEventRepository.java
+D:\SpringBoot\URL Shortener\src\main\java\com\example\urlshortener\repository\ShortUrlRepository.java
+D:\SpringBoot\URL Shortener\src\main\java\com\example\urlshortener\service\Base62CodeGenerator.java
+D:\SpringBoot\URL Shortener\src\main\java\com\example\urlshortener\service\UrlShortenerService.java
+D:\SpringBoot\URL Shortener\src\main\java\com\example\urlshortener\UrlShortenerApplication.java

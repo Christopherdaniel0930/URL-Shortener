@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<main class="shell">
+    <section class="toolbar">
+        <div>
+            <p class="eyebrow">URL Shortener</p>
+            <h1>Links, clicks, and expiry in one dashboard</h1>
+        </div>
+        <form id="create-form" class="create-form">
+            <input id="original-url" type="url" placeholder="https://example.com/very/long/url" required>
+            <input id="expires-at" type="datetime-local" aria-label="Expiry date">
+            <button type="submit">Shorten</button>
+        </form>
+    </section>
+
+    <section id="created-result" class="created-result" hidden>
+        <span id="created-link"></span>
+        <button id="copy-created-link" type="button">Copy</button>
+    </section>
+
+    <section class="stats-grid" aria-label="Dashboard statistics">
+        <article>
+            <span>Total URLs</span>
+            <strong id="total-urls">0</strong>
+        </article>
+        <article>
+            <span>Total Clicks</span>
+            <strong id="total-clicks">0</strong>
+        </article>
+        <article>
+            <span>Clicks Today</span>
+            <strong id="clicks-today">0</strong>
+        </article>
+    </section>
+
+    <section class="content-grid">
+        <div class="panel">
+            <div class="panel-header">
+                <h2>Short URLs</h2>
+                <button id="refresh-button" type="button">Refresh</button>
+            </div>
+            <div id="url-list" class="url-list"></div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-header">
+                <h2>Recent Clicks</h2>
+                <span id="selected-code">Select a URL</span>
+            </div>
+            <div id="click-list" class="click-list muted">No URL selected.</div>
+        </div>
+    </section>
+</main>
+
+<template id="url-row-template">
+    <article class="url-row">
+        <button class="url-details" type="button">
+            <span class="short-url-wrap">
+                <span class="short-url"></span>
+                <span class="copy-status" aria-live="polite"></span>
+            </span>
+            <span class="original-url"></span>
+            <span class="url-meta"></span>
+        </button>
+        <button class="copy-link" type="button">Copy</button>
+    </article>
+</template>
+
+<script src="/app.js"></script>
+</body>
+</html>
